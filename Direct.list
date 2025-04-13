@@ -12,6 +12,10 @@ DOMAIN-SUFFIX,ipv6.msftconnecttest.com
 DOMAIN-KEYWORD,mirror
 DOMAIN-KEYWORD,ghp
 
+# Cloudflare 验证域名直连规则
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,turnstile.com
+DOMAIN-SUFFIX,captcha.com
 
 # 360
 DOMAIN-SUFFIX,360.com
