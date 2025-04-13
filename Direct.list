@@ -332,11 +332,6 @@ DOMAIN-SUFFIX,jiasule.com
 DOMAIN-SUFFIX,staticfile.org
 DOMAIN-SUFFIX,upaiyun.com
 
-# Cloudflare 验证域名直连规则
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,turnstile.com
-DOMAIN-SUFFIX,captcha.com
-DOMAIN-KEYWORD,cloudflare
 
 # AccelerateDirectSites
 DOMAIN-SUFFIX,10010.com
