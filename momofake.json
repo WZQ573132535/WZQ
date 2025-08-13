@@ -1,22 +1,35 @@
 {
   "dns": {
-    "servers": [
-      {"tag": "local", "type": "udp", "server": "223.5.5.5"},
-      {"tag": "public", "type": "https", "server": "dns.alidns.com", "domain_resolver": "local"},
-      {"tag": "foreign", "type": "https", "server": "dns.google", "domain_resolver": "local"},
-      {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
-    ],
-    "rules": [
-      {"query_type": "HTTPS", "action": "reject"},
-      {"clash_mode": "direct", "server": "local"},
-      {"clash_mode": "global", "server": "foreign"},
-      {"rule_set": ["geosite-cn", "geosite-apple"], "server": "local"},
-      {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
-    ],
-    "final": "foreign",
-    "strategy": "ipv4_only",
-    "independent_cache": true
-  },
+  "servers": [
+    {
+      "tag": "local",
+      "address": "223.5.5.5",
+      "detour": "DIRECT"
+    },
+    {
+      "tag": "remote",
+      "address": "8.8.8.8",
+      "detour": "PROXY"
+    }
+  ],
+  "rules": [
+    {
+      "outbound": ["any"],
+      "server": "local",
+      "domain_suffix": ["lan", "local"]
+    },
+    {
+      "server": "local",
+      "geosite": ["cn"]
+    },
+    {
+      "server": "remote",
+      "geosite": ["geolocation-!cn"]
+    }
+  ],
+  "strategy": "ipv4_only",
+  "disable_cache": false
+},
   "outbounds": [
     {"tag": "🚀 节点选择", "type": "selector", "outbounds": ["♻️ 自动选择", "🇭🇰 香港自动", "🇺🇸 美国自动", "🇯🇵 日本自动", "🇨🇳 台湾自动", "🇸🇬 新加坡自动", "🇰🇷 韩国自动"]},
     {"tag": "📹 YouTube", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇺🇸 美国自动", "🇯🇵 日本自动", "🇨🇳 台湾自动", "🇸🇬 新加坡自动", "🇰🇷 韩国自动"]},
