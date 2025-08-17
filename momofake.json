@@ -1,22 +1,22 @@
-"dns": {
-  "servers": [
-    "223.5.5.5",
-    {"address": "dns.alidns.com", "protocol": "https"},
-    {"address": "1.1.1.1", "protocol": "https"},
-    {"address": "198.18.0.0/15", "protocol": "fakeip", "inet6_range": "fc00::/18"}
-  ],
-  "rules": [
-    {"query_type": "HTTPS", "action": "reject"},
-    {"clash_mode": "direct", "server": "223.5.5.5"},
-    {"clash_mode": "global", "server": "1.1.1.1"},
-    {"rule_set": ["geosite-cn", "geosite-apple"], "server": "223.5.5.5"},
-    {"query_type": ["A", "AAAA"], "server": "198.18.0.0/15", "rewrite_ttl": 1}
-  ],
-  "final": "1.1.1.1",
-  "strategy": "ipv4_only",
-  "independent_cache": true
-}
-
+{
+  "dns": {
+    "servers": [
+      "223.5.5.5",
+      {"address": "dns.alidns.com", "protocol": "https"},
+      {"address": "1.1.1.1", "protocol": "https"},
+      {"address": "198.18.0.0/15", "protocol": "fakeip", "inet6_range": "fc00::/18"}
+    ],
+    "rules": [
+      {"query_type": "HTTPS", "action": "reject"},
+      {"clash_mode": "direct", "server": "223.5.5.5"},
+      {"clash_mode": "global", "server": "1.1.1.1"},
+      {"rule_set": ["geosite-cn", "geosite-apple"], "server": "223.5.5.5"},
+      {"query_type": ["A", "AAAA"], "server": "198.18.0.0/15", "rewrite_ttl": 1}
+    ],
+    "final": "1.1.1.1",
+    "strategy": "ipv4_only",
+    "independent_cache": true
+  },
   "outbounds": [
     {"tag": "🚀 节点选择", "type": "selector", "outbounds": ["♻️ 自动选择", "🇭🇰 香港自动", "🇺🇸 美国自动", "🇯🇵 日本自动", "🇨🇳 台湾自动", "🇸🇬 新加坡自动", "🇰🇷 韩国自动"]},
     {"tag": "📹 YouTube", "type": "selector", "outbounds": ["🇭🇰 香港自动","🇺🇸 美国自动","🇯🇵 日本自动","🇨🇳 台湾自动","🇸🇬 新加坡自动","🇰🇷 韩国自动"]},
