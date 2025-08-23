@@ -95,7 +95,7 @@
       {"tag": "geoip-telegram", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs", "download_detour": "🇭🇰 香港自动"},
       {"tag": "geoip-netflix", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs", "download_detour": "🇭🇰 香港自动"},
       {"tag": "geoip-twitter", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/twitter.srs", "download_detour": "🇭🇰 香港自动"},
-      {"tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://github.com/qljsyph/ruleset-icon/raw/refs/heads/main/sing-box/geoip/China-ASN-combined-ip.srs", "download_detour": "🇭🇰 香港自动"}
+      {"tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs", "download_detour": "🇭🇰 香港自动"}
     ],
     "final": "🐟 漏网之鱼",
     "default_domain_resolver": {"server": "public"}
