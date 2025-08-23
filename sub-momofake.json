@@ -49,10 +49,6 @@
     "rules": [
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},
       {"inbound": "dns-in", "action": "hijack-dns"},
-      
-      {"ip_cidr": ["192.168.8.0/24"], "outbound": "🚀 节点选择"},
-      {"ip_cidr": ["100.64.0.0/10"], "outbound": "🚀 节点选择"},
-      
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
