@@ -61,10 +61,10 @@
       "advertise_exit_node": true,
       "udp_timeout": "5m"
       
-    }
+    },
     
 
-  ],
+
   "route": {
     "rules": [
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},
