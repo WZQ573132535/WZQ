@@ -9,13 +9,11 @@
     "rules": [
       {"clash_mode": "direct", "server": "local"},
       {"clash_mode": "global", "server": "fakeip"},
-      {"query_type": "HTTPS", "action": "reject"},
-      {"rule_set": "geosite-fakeipfilter", "server": "local"},
-      {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1},
-      {"rule_set": "geosite-cn", "server": "local"}
+      {"domain_suffix": ["services.googleapis.cn", "googleapis.cn", "xn--ngstr-lra8j.com"], "server": "foreign"},
+      {"rule_set": ["geosite-cn", "geosite-apple"], "server": "local"},
+      {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
     ],
     "final": "foreign",
-    "client_subnet": "223.5.5.0/24",
     "strategy": "prefer_ipv4",
     "independent_cache": true,
     "reverse_mapping": true
@@ -77,7 +75,6 @@
       {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"}
     ],
     "rule_set": [
-      {"tag": "geosite-fakeipfilter", "type": "remote", "format": "source", "url": "https://github.573132535.xyz/https://raw.githubusercontent.com/WZQ573132535/WZQ/refs/heads/main/fakeipfilter.json", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-openai", "type": "remote", "format": "binary", "url": "https://github.573132535.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/openai.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-x", "type": "remote", "format": "binary", "url": "https://github.573132535.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/x.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-gemini", "type": "remote", "format": "binary", "url": "https://github.573132535.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/google-gemini.srs", "download_detour": "🎯 全球直连"},
