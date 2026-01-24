@@ -43,7 +43,7 @@
     {"tag": "🇸🇬 新加坡自动", "type": "urltest", "outbounds": ["{all}"], "url": "https://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 100 "filter": [{"action": "include", "keywords": ["新加坡|坡|狮城|SG|Singapore"]}, {"action": "exclude", "keywords": ["免费"]}]},
     {"tag": "🇰🇷 韩国自动", "type": "urltest", "outbounds": ["{all}"], "url": "https://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 100 "filter": [{"action": "include", "keywords": ["🇰🇷|KR|kr|韩国|韩|Korea"]}, {"action": "exclude", "keywords": ["免费"]}]},
     {"tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "url": "https://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 100 "filter": [{"action": "exclude", "keywords": ["官网|到期时间|剩余|流量|套餐|免费|订阅|全球直连|GB|Expire Date|Traffic|ExpireDate"]}]},
-    {"tag": "🍃 延迟辅助", "type": "urltest", "outbounds": ["🚀 节点选择", "🎯 全球直连"]},
+    {"tag": "🍃 延迟辅助", "type": "urltest", "outbounds", "url": "https://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 100 : ["🚀 节点选择", "🎯 全球直连"]},
     {"tag": "GLOBAL", "type": "selector", "outbounds": ["🚀 节点选择", "📹 YouTube", "🔍 Google", "💬 OpenAi", "❎ X", "✨ Gemini", "🎵 TikTok", "🌈 Instagram", "📲 Telegram", "🎮 Nintendo", "👨🏿‍💻 GitHub", "👾 Docker", "🎥 Netflix", "🍎 Apple", "🐟 漏网之鱼", "🇭🇰 香港自动", "🇺🇸 美国自动", "🇯🇵 日本自动", "🇨🇳 台湾自动", "🇸🇬 新加坡自动", "🇰🇷 韩国自动", "🍃 延迟辅助", "🎯 全球直连"]},
     {"tag": "🎯 全球直连", "type": "direct"}
   ],
