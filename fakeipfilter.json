@@ -44,11 +44,6 @@
         "local.adguard.org",
         "static.adtidy.org",
         "ps.res.netease.com"
-        "v6.666666.host"
-        "myip6.ipip.net"
-        "v6.66666.host"
-        "6.ipw.cn"
-        "ipv6.ddnspod.com"
       ]
     },
     {
@@ -102,6 +97,12 @@
         ".orayimg.com",
         ".gcloudcs.com",
         ".gcloudsdk.com"
+        "ps.res.netease.com"
+        ".666666.host"
+        ".ipip.net"
+        ".66666.host"
+        ".ipw.cn"
+        ".ddnspod.com"
       ]
     },
     {
@@ -140,4 +141,5 @@
     }
   ]
 }
+
 
