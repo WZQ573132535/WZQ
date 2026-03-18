@@ -70,6 +70,7 @@
       {"rule_set": "geosite-nintendo", "outbound": "🎮 Nintendo"},
       {"rule_set": "geosite-netflix", "outbound": "🎥 Netflix"},
       {"rule_set": "geosite-apple", "outbound": "🍎 Apple"},
+      {"action": "resolve"},
       {"rule_set": "geoip-google", "outbound": "🔍 Google"},
       {"rule_set": "geoip-apple", "outbound": "🍎 Apple"},
       {"rule_set": "geoip-telegram", "outbound": "📲 Telegram"},
