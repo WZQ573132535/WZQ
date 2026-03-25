@@ -4,9 +4,9 @@ email_api_mode: "cloudflare_temp_email"
 
 # [基础配置: cloudflare_temp_email / imap 共享]
 # 你的域名 (支持逗号分隔多域名随机轮换) 如果只有一个域名就只填一个域名
-mail_domains: "domain1.com,domain2.xyz,domain3.net"
+mail_domains: "wzq.us.kg,573132535.dpdns.org,wzq888432.dpdns.org"
 # 你的临时邮箱 后端API 基础地址 结尾不要/，IMAP和freemail不需要配置此项。注意：用浏览器打开后端api验证是否可访问
-gptmail_base: "https://your-domain.com"
+gptmail_base: https://mailapi.wzq.us.kg"
 
 # [代理配置]
 # openai注册时代理地址，例子：http://127.0.0.1:7897。如果是国外服务器此项可以不填
@@ -30,7 +30,7 @@ freemail:
 
 # [模式 "cloudflare_temp_email" 专属配置]
 # 你的临时邮箱管理员密码
-admin_auth: ""
+admin_auth: "Wzq888432"
 
 
 # [验证码重发次数配置，默认5次]
@@ -49,19 +49,19 @@ token_output_dir: ""
 # CPA 模式专属配置
 cpa_mode:
   # 【开关】true 开启巡检补货上传，false 则只进行常规无限注册
-  enable: false
+  enable: True
   # 【开关】开启 CPA 补货时，是否同时将账号 Token 备份到本地，默认true为备份
-  save_to_local: true
+  save_to_local: false
   # CPA的api地址
-  api_url: "http://your-domain.com:8317"
+  api_url: "http://192.168.5.5:8317"
   # CPA登陆密码
-  api_token: "xxxx"
+  api_token: "Wzq888432"
   # 仓库存量低于此值时触发补货
   min_accounts_threshold: 30
   # 每次触发补货注册的数量
   batch_reg_count: 1
   # 周限额剔除阈值设置 (0-100)
   # 设为 80 代表额度剩余低于 80% 就当作死号剔除，设为 0 代表完全耗尽才剔除。
-  min_remaining_weekly_percent: 80
+  min_remaining_weekly_percent: 50
   # CPA 仓库巡检的间隔时间，默认每60分钟巡检一次
-  check_interval_minutes: 60
+  check_interval_minutes: 30
