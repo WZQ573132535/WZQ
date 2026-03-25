@@ -6,7 +6,7 @@ email_api_mode: "cloudflare_temp_email"
 # 你的域名 (支持逗号分隔多域名随机轮换) 如果只有一个域名就只填一个域名
 mail_domains: "wzq.us.kg,573132535.dpdns.org,wzq888432.dpdns.org"
 # 你的临时邮箱 后端API 基础地址 结尾不要/，IMAP和freemail不需要配置此项。注意：用浏览器打开后端api验证是否可访问
-gptmail_base: https://mailapi.wzq.us.kg"
+gptmail_base: "https://mailapi.wzq.us.kg"
 
 # [代理配置]
 # openai注册时代理地址，例子：http://127.0.0.1:7897。如果是国外服务器此项可以不填
