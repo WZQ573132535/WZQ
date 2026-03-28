@@ -49,7 +49,7 @@ mail_curl:
 default_proxy: "http://192.168.5.88:18080"
 
 # 是否开启注册多线程并发 (true/false)
-enable_multi_thread_reg: false    
+enable_multi_thread_reg: true    
 # 注册时的最大并发线程数 (建议根据你的代理质量调整，不要设置过高)
 reg_threads: 10
 
