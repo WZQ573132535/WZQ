@@ -508,7 +508,7 @@
         "inbound": [
           "http-register-in"
         ],
-        "outbound": "🇰🇷 韩国自动"
+        "outbound": "🇺🇸 美国自动"
       },
       {
         "rule_set": "geosite-openai",
