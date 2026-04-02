@@ -36,11 +36,11 @@ imap:
 # [模式 "freemail" 专属]
 freemail:
   #访问链接
-  api_url: "https://your-domain.com"
+  api_url: "http://mailfree.573132535.dpdns.org"
   #JWTTOKEN
-  api_token: ""
-  admin_username: 
-  admin_password: 
+  api_token: "b5f54adb51bd32ce8ce3651d22b282aa54d98c6b9ad6844ca5f9609b4ccaacfc"
+  admin_username: "WZQ"
+  admin_password: "Wzq888432"
 
 # [模式 "cloud-mail" 专属配置]
 cloudmail:
