@@ -430,15 +430,6 @@
       "interval": "10m",
       "tolerance": 50
     },
-     {
-      "tag": "♻️ 全部",
-      "type": "urltest",
-      "outbounds": [
-        "{all}"
-      ],
-      "interval": "10m",
-      "tolerance": 50
-   }，
     {
       "tag": "🍃 延迟辅助",
       "type": "selector",
