@@ -96,7 +96,24 @@
         ".oray.com",
         ".orayimg.com",
         ".gcloudcs.com",
-        ".gcloudsdk.com"
+        ".gcloudsdk.com",
+
+        ".nintendo.net",
+        ".nintendo.com",
+        ".nintendo.co.jp",
+
+        ".googlevideo.com",
+        ".youtube.com",
+        ".ytimg.com",
+
+        ".gvt1.com",
+        ".gvt2.com",
+        ".gstatic.com",
+
+        ".akamai.net",
+        ".akamaized.net",
+
+        ".cloudfront.net"
       ]
     },
     {
