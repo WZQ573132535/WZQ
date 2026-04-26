@@ -778,7 +778,7 @@
         "172.31.0.1/30",
         "fdfe:dcba:9876::1/126"
       ],
-      "mtu": 1400,
+      "mtu": 1500,
       "auto_route": false,
       "auto_redirect": false,
       "udp_timeout": "5m"
