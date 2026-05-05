@@ -57,46 +57,83 @@
         ".local",
         ".home.arpa",
         ".direct",
+
         ".pool.ntp.org",
+
         ".music.163.com",
         ".126.net",
         ".kuwo.cn",
         ".y.qq.com",
         ".xiami.com",
         ".music.migu.cn",
+
         ".msftconnecttest.com",
         ".msftncsi.com",
+
         ".steamcontent.com",
+
+        /* ✅ Nintendo（核心） */
+        ".nintendo.net",
+        ".nintendo.com",
+        ".nintendowifi.net",
+
         ".srv.nintendo.net",
         ".cdn.nintendo.net",
+
         ".battle.net",
         ".battlenet.com.cn",
         ".wotgame.cn",
         ".wggames.cn",
         ".wowsgame.cn",
         ".wargaming.net",
+
         ".linksys.com",
         ".linksyssmartwifi.com",
         ".router.asus.com",
+
         ".nflxvideo.net",
+
         ".square-enix.com",
         ".finalfantasyxiv.com",
         ".ffxiv.com",
         ".ff14.sdo.com",
+
         ".mcdn.bilivideo.cn",
         ".media.dssott.com",
+
         ".market.xiaomi.com",
+
         ".cmbchina.com",
         ".cmbimg.com",
+
         ".sandai.net",
         ".n0808.com",
+
         ".3gppnetwork.org",
-        ".uu.163.com",
         ".pub.3gppnetwork.org",
+
         ".oray.com",
         ".orayimg.com",
+
         ".gcloudcs.com",
-        ".gcloudsdk.com"
+        ".gcloudsdk.com",
+
+        /* ✅ CDN（解决视频转圈关键） */
+        ".akamaized.net",
+        ".akamai.net",
+        ".akamaihd.net",
+        ".edgesuite.net",
+
+        ".fastly.net",
+        ".fastlylb.net",
+
+        ".cloudfront.net",
+
+        ".llnwd.net",
+
+        /* ✅ 任天堂视频相关补充 */
+        ".video.nintendo.net",
+        ".assets.nintendo.com"
       ]
     },
     {
@@ -105,6 +142,7 @@
         "^time\\.[^.]+\\.gov",
         "^time\\.[^.]+\\.edu\\.cn",
         "^time\\.[^.]+\\.apple\\.com",
+
         "^time1\\.[^.]+\\.com",
         "^time2\\.[^.]+\\.com",
         "^time3\\.[^.]+\\.com",
@@ -112,6 +150,7 @@
         "^time5\\.[^.]+\\.com",
         "^time6\\.[^.]+\\.com",
         "^time7\\.[^.]+\\.com",
+
         "^ntp\\.[^.]+\\.com",
         "^ntp1\\.[^.]+\\.com",
         "^ntp2\\.[^.]+\\.com",
@@ -120,13 +159,19 @@
         "^ntp5\\.[^.]+\\.com",
         "^ntp6\\.[^.]+\\.com",
         "^ntp7\\.[^.]+\\.com",
+
         "^[^.]+\\.time\\.edu\\.cn",
         "^[^.]+\\.ntp\\.org\\.cn",
+
         "^localhost\\.[^.]+\\.weixin\\.qq\\.com",
+
         "^[^.]+\\.n\\.n\\.srv\\.nintendo\\.net",
+
         "^xbox\\.[^.]+\\.[^.]+\\.microsoft\\.com",
         "^[^.]+\\.[^.]+\\.xboxlive\\.com",
         "^xbox\\.[^.]+\\.microsoft\\.com",
+
+        /* ✅ STUN（NAT关键） */
         "^(.+\\.)?stun\\.[^.]+\\.[^.]+$",
         "^(.+\\.)?stun\\.[^.]+\\.[^.]+\\.[^.]+$",
         "^(.+\\.)?stun\\.[^.]+\\.[^.]+\\.[^.]+\\.[^.]+$",
