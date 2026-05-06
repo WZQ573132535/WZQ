@@ -56,7 +56,6 @@
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
-      {"domain_suffix": [".gameloft.com"], "outbound": "🇯🇵 日本自动"},
       {"domain_suffix": [".akamaized.net", ".akamai.net", ".fastly.net", ".cloudfront.net"], "outbound": "🎯 全球直连"},
       {"action": "resolve"},
       {"rule_set": "geosite-openai", "outbound": "💬 OpenAi"},
