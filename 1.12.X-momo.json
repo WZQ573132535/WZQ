@@ -76,7 +76,6 @@
       {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"}
     ],
     "rule_set": [
-      {"tag": "geosite-fakeipfilter", "type": "remote", "format": "source", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/WZQ573132535/WZQ/refs/heads/main/fakeipfilter.json", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-openai", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/openai.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-x", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/x.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-gemini", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/google-gemini.srs", "download_detour": "🎯 全球直连"},
