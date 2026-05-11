@@ -10,8 +10,8 @@
       {"clash_mode": "direct", "server": "local"},
       {"clash_mode": "global", "server": "fakeip"},
       {"query_type": "HTTPS", "action": "reject"},
-      {"rule_set": "geosite-nintendo", "server": "local"}, 
-      {"rule_set": "geosite-fakeipfilter", "server": "local"},
+      {"domain_suffix": ["akamaihd.net", "akamaized.net", "edgesuite.net", "akamai.net"], "server": "local"},
+      {"rule_set": "geosite-nintendo", "server": "local", "disable_cache": true},      {"rule_set": "geosite-fakeipfilter", "server": "local"},
       {"rule_set": "geosite-cn", "server": "local"},
       {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
     ],
