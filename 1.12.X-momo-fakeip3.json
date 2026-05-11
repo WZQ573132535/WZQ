@@ -2,6 +2,7 @@
   "dns": {
     "servers": [
       {"tag": "local", "type": "udp", "server": "223.5.5.5"},
+      {"tag": "nintendo", "type": "udp", "server": "1.1.1.1"},
       {"tag": "public", "type": "https", "server": "dns.alidns.com", "server_port": 443, "path": "/dns-query", "domain_resolver": "local"},
       {"tag": "foreign", "type": "https", "server": "dns.google", "server_port": 443, "path": "/dns-query", "domain_resolver": "local", "detour": "🚀 节点选择"},
       {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
@@ -11,7 +12,8 @@
       {"clash_mode": "global", "server": "fakeip"},
       {"query_type": "HTTPS", "action": "reject"},
       {"domain_suffix": ["akamaihd.net", "akamaized.net", "edgesuite.net", "akamai.net"], "server": "local"},
-      {"rule_set": "geosite-nintendo", "server": "local", "disable_cache": true},     
+      {"domain_keyword": ["akamai", "nintendo"], "server": "local"},
+      {"rule_set": "geosite-nintendo", "server": "nintendo", "disable_cache": true},     
       {"rule_set": "geosite-fakeipfilter", "server": "local"},
       {"rule_set": "geosite-cn", "server": "local"},
       {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
