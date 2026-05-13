@@ -55,6 +55,7 @@
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
+      {"domain_suffix": ["gameloft.com"], "outbound": "🇯🇵 日本自动"},
       {"domain_suffix": ["nintendo.com", "nintendo.net", "nintendo.co.jp", "nintendo-europe.com", "nintendowifi.net"], "outbound": "🎮 Nintendo"},
       {"domain_suffix": ["googlevideo.com", "ytimg.com", "youtubei.googleapis.com"], "outbound": "📹 YouTube"},
       {"action": "resolve"},
