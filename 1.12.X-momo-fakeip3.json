@@ -8,9 +8,9 @@
     ],
     "rules": [
       {"clash_mode": "direct", "server": "local"},
-      {"clash_mode": "global", "server": "fakeip"},
       {"query_type": "HTTPS", "action": "reject"},
       {"domain_suffix": ["nintendo.com", "nintendo.net", "nintendo.co.jp", "nintendo-europe.com", "nintendowifi.net", "googlevideo.com", "ytimg.com", "youtubei.googleapis.com"], "server": "foreign"},
+      {"clash_mode": "global", "server": "fakeip"},
       {"rule_set": "geosite-fakeipfilter", "server": "local"},
       {"rule_set": "geosite-cn", "server": "local"},
       {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
