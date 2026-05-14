@@ -9,7 +9,7 @@
     "rules": [
       {"clash_mode": "direct", "server": "local"},
       {"query_type": "HTTPS", "action": "reject"},
-      {"domain_suffix": ["nintendo.com", "nintendo.net", "nintendo.co.jp", "nintendo-europe.com", "nintendowifi.net", "googlevideo.com", "ytimg.com", "youtubei.googleapis.com"], "server": "foreign"},
+      {"domain_suffix": ["nintendo.com", "nintendo.net", "nintendo.co.jp", "nintendo-europe.com", "nintendowifi.net", "googlevideo.com", "ytimg.com", "youtubei.googleapis.com", "ggpht.com", "gvt1.com", "gvt2.com", "gvt3.com"], "server": "foreign"},
       {"clash_mode": "global", "server": "fakeip"},
       {"rule_set": "geosite-fakeipfilter", "server": "local"},
       {"rule_set": "geosite-cn", "server": "local"},
@@ -57,7 +57,7 @@
       {"clash_mode": "global", "outbound": "GLOBAL"},
       {"domain_suffix": ["gameloft.com"], "outbound": "🇯🇵 日本自动"},
       {"domain_suffix": ["nintendo.com", "nintendo.net", "nintendo.co.jp", "nintendo-europe.com", "nintendowifi.net"], "outbound": "🎮 Nintendo"},
-      {"domain_suffix": ["googlevideo.com", "ytimg.com", "youtubei.googleapis.com"], "outbound": "📹 YouTube"},
+      {"domain_suffix": ["googlevideo.com", "ytimg.com", "youtubei.googleapis.com", "ggpht.com", "gvt1.com", "gvt2.com", "gvt3.com"], "outbound": "📹 YouTube"},
       {"rule_set": "geosite-openai", "outbound": "💬 OpenAi"},
       {"rule_set": "geosite-x", "outbound": "❎ X"},
       {"rule_set": "geosite-gemini", "outbound": "✨ Gemini"},
