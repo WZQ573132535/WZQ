@@ -7,9 +7,9 @@
       {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
     "rules": [
-      {"clash_mode": "direct", "server": "local"},
       {"query_type": "HTTPS", "action": "reject"},
       {"domain_suffix": ["nintendo.com", "nintendo.net", "nintendo.co.jp", "nintendo-europe.com", "nintendowifi.net", "googlevideo.com", "ytimg.com", "youtubei.googleapis.com", "ggpht.com", "gvt1.com", "gvt2.com", "gvt3.com"], "server": "foreign"},
+      {"clash_mode": "direct", "server": "local"},
       {"clash_mode": "global", "server": "fakeip"},
       {"rule_set": "geosite-fakeipfilter", "server": "local"},
       {"rule_set": "geosite-cn", "server": "local"},
