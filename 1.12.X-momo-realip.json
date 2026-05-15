@@ -13,7 +13,7 @@
    {"rule_set": "geosite-apple-cn", "server": "local"},
    {"rule_set": "geosite-apple", "server": "foreign"}
   ],
-  "final": "foreign",
+  "final": "public",
   "strategy": "prefer_ipv4",
   "independent_cache": true,
   "reverse_mapping": true
