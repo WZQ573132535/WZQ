@@ -10,6 +10,7 @@
    {"query_type": "HTTPS", "action": "reject"},
    {"domain_suffix": ["services.googleapis.cn", "googleapis.cn", "xn--ngstr-lra8j.com"], "server": "foreign"},
    {"rule_set": "geosite-cn", "server": "local"},
+   {"rule_set": "geosite-apple-cn", "server": "local"},
    {"rule_set": "geosite-apple", "server": "foreign"}
   ],
   "final": "foreign",
