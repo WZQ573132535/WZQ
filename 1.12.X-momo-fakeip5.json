@@ -13,6 +13,7 @@
       {"domain_suffix": ["nintendo.com", "nintendo.net", "nintendo.co.jp", "nintendo-europe.com", "nintendowifi.net", "googlevideo.com", "ytimg.com", "youtubei.googleapis.com"], "server": "foreign"},
       {"rule_set": "geosite-fakeipfilter", "server": "local"},
       {"rule_set": "geosite-cn", "server": "local"},
+      {"rule_set": "geosite-openai", "server": "foreign"}, 
       {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
     ],
     "final": "foreign",
