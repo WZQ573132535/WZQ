@@ -57,7 +57,6 @@
       {"clash_mode": "global", "outbound": "GLOBAL"},
       {"domain_suffix": ["gameloft.com"], "outbound": "🇯🇵 日本自动"},
       {"domain_suffix": ["nintendo.com", "nintendo.net", "nintendo.co.jp", "nintendo-europe.com", "nintendowifi.net"], "outbound": "🎮 Nintendo"},
-      {"domain_suffix": ["googlevideo.com", "ytimg.com", "youtubei.googleapis.com"], "outbound": "📹 YouTube"},
       {"rule_set": "geosite-openai", "outbound": "💬 OpenAi"},
       {"rule_set": "geosite-x", "outbound": "❎ X"},
       {"rule_set": "geosite-gemini", "outbound": "✨ Gemini"},
