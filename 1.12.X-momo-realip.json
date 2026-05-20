@@ -404,20 +404,9 @@
       ],
       "filter": [
         {
-          "action": "include",
-          "keywords": [
-            "🇭🇰|HK|hk|香港|港|HongKong",
-            "🇺🇸|US|us|美国|美|United States",
-            "🇯🇵|JP|jp|日本|日|Japan",
-            "tw|TW|台湾|台|Taiwan",
-            "新加坡|坡|狮城|SG|Singapore",
-            "🇰🇷|KR|kr|韩国|韩|Korea"
-          ]
-        },
-        {
           "action": "exclude",
           "keywords": [
-            "官网|到期时间|剩余|流量|套餐|免费|订阅|全球直连|GB|Expire Date|Traffic|ExpireDate|AUS|RUS"
+            "官网|到期时间|剩余|流量|套餐|免费|订阅|全球直连|GB|Expire Date|Traffic|ExpireDate"
           ]
         }
       ],
