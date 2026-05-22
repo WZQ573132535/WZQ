@@ -11,7 +11,7 @@
    {"domain_suffix": ["services.googleapis.cn", "googleapis.cn", "xn--ngstr-lra8j.com"], "server": "foreign"},
    {"rule_set": ["geosite-cn", "geosite-apple"], "server": "local"}
   ],
-  "final": "foreign",
+  "final": "public",
   "strategy": "ipv4_only",
   "independent_cache": true,
   "reverse_mapping": true
@@ -86,7 +86,6 @@
    {"tag": "geosite-nintendo", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/nintendo.srs", "download_detour": "🎯 全球直连"},
    {"tag": "geosite-netflix", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/netflix.srs", "download_detour": "🎯 全球直连"},
    {"tag": "geosite-apple", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/apple.srs", "download_detour": "🎯 全球直连"},
-   {"tag": "geosite-!cn", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/geolocation-!cn.srs", "download_detour": "🎯 全球直连"},
    {"tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/cn.srs", "download_detour": "🎯 全球直连"},
    {"tag": "geoip-google", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/google.srs", "download_detour": "🎯 全球直连"},
    {"tag": "geoip-apple", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo-lite/geoip/apple.srs", "download_detour": "🎯 全球直连"},
