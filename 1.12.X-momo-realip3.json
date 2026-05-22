@@ -79,7 +79,7 @@
   ],
   "rule_set": [
    {"tag": "geosite-openai", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/openai.srs", "download_detour": "🎯 全球直连"},
-   {"tag": "geosite-x", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/x.srs", "download_detled": "🎯 全球直连"},
+   {"tag": "geosite-x", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/x.srs", "download_detour": "🎯 全球直连"},
    {"tag": "geosite-gemini", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/google-gemini.srs", "download_detour": "🎯 全球直连"},
    {"tag": "geosite-youtube", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/youtube.srs", "download_detour": "🎯 全球直连"},
    {"tag": "geosite-google", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/google.srs", "download_detour": "🎯 全球直连"},
