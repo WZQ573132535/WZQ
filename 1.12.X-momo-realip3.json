@@ -2,9 +2,7 @@
  "dns": {
   "servers": [
    {"tag": "local", "type": "udp", "server": "223.5.5.5"},
-   // 优化：直接使用 IP 形式的阿里 DOH，省去域名解析步骤，大幅提升国内解析首字延迟
    {"tag": "public", "type": "https", "server": "223.5.5.5", "server_port": 443, "path": "/dns-query"},
-   // 保持不变，但增加一个国内备用，防止因为节点切换导致 DNS 彻底堵死
    {"tag": "foreign", "type": "https", "server": "dns.google", "server_port": 443, "path": "/dns-query", "detour": "🚀 节点选择"}
   ],
   "rules": [
@@ -12,7 +10,6 @@
    {"query_type": "HTTPS", "action": "reject"},
    {"domain_suffix": ["services.googleapis.cn", "googleapis.cn", "xn--ngstr-lra8j.com"], "server": "foreign"},
    {"rule_set": ["geosite-!cn"], "server": "foreign"},
-   // 优化：让国内域名和 Apple 域名优先使用更安全的 public (DOH)，本地 UDP 作为本地兜底
    {"rule_set": ["geosite-cn", "geosite-apple"], "server": "public"}
   ],
   "final": "foreign",
