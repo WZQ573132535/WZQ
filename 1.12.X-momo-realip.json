@@ -136,8 +136,8 @@
         { "action": "include", "keywords": ["🇭🇰|HK|hk|香港|港|HongKong"] },
         { "action": "exclude", "keywords": ["免费"] }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🇺🇸 美国自动",
@@ -147,8 +147,8 @@
         { "action": "include", "keywords": ["🇺🇸|US|us|美国|美|United States"] },
         { "action": "exclude", "keywords": ["AUS|RUS|免费"] }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🇯🇵 日本自动",
@@ -158,8 +158,8 @@
         { "action": "include", "keywords": ["🇯🇵|JP|jp|日本|日|Japan"] },
         { "action": "exclude", "keywords": ["免费"] }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🇨🇳 台湾自动",
@@ -169,8 +169,8 @@
         { "action": "include", "keywords": ["tw|TW|台湾|台|Taiwan"] },
         { "action": "exclude", "keywords": ["免费"] }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🇨🇳 台湾手动",
@@ -189,8 +189,8 @@
         { "action": "include", "keywords": ["新加坡|坡|狮城|SG|Singapore"] },
         { "action": "exclude", "keywords": ["免费"] }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🇰🇷 韩国自动",
@@ -200,8 +200,8 @@
         { "action": "include", "keywords": ["🇰🇷|KR|kr|韩国|韩|Korea"] },
         { "action": "exclude", "keywords": ["免费"] }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "♻️ 自动选择",
@@ -210,8 +210,8 @@
       "filter": [
         { "action": "exclude", "keywords": ["官网|到期时间|剩余|流量|套餐|免费|订阅|全球直连|GB|Expire Date|Traffic|ExpireDate"] }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🍃 延迟辅助",
