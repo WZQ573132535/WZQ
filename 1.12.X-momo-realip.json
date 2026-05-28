@@ -215,7 +215,7 @@
     },
     {
       "tag": "🍃 延迟辅助",
-      "type": "selector",
+      "type": "urltest",
       "outbounds": ["🚀 节点选择", "🎯 全球直连"]
     },
     {
