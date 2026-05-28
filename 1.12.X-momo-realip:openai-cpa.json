@@ -10,15 +10,12 @@
         "tag": "public",
         "type": "https",
         "server": "dns.alidns.com",
-        "server_port": 443,
-        "path": "/dns-query",
         "domain_resolver": "local"
       },
       {
         "tag": "foreign",
-        "type": "tls",
-        "server": "1.1.1.1",
-        "server_port": 853,
+        "type": "https",
+        "server": "8.8.8.8",
         "detour": "🚀 节点选择"
       }
     ],
@@ -26,6 +23,10 @@
       {
         "clash_mode": "direct",
         "server": "local"
+      },
+      {
+        "clash_mode": "global",
+        "server": "fakeip"
       },
       {
         "query_type": "HTTPS",
@@ -40,12 +41,11 @@
         "server": "foreign"
       },
       {
-        "rule_set": "geosite-cn",
+        "rule_set": [
+          "geosite-cn",
+          "geosite-apple"
+        ],
         "server": "local"
-      },
-      {
-        "rule_set": "geosite-!cn",
-        "server": "foreign"
       }
     ],
     "final": "foreign",
@@ -251,8 +251,8 @@
           ]
         }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🇺🇸 美国自动",
@@ -274,8 +274,8 @@
           ]
         }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🇯🇵 日本自动",
@@ -297,8 +297,8 @@
           ]
         }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🇨🇳 台湾自动",
@@ -320,8 +320,8 @@
           ]
         }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🇨🇳 台湾手动",
@@ -364,8 +364,8 @@
           ]
         }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🇰🇷 韩国自动",
@@ -387,8 +387,8 @@
           ]
         }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "♻️ 自动选择",
@@ -404,12 +404,12 @@
           ]
         }
       ],
-      "interval": "30m",
-      "tolerance": 50
+      "interval": "10m",
+      "tolerance": 100
     },
     {
       "tag": "🍃 延迟辅助",
-      "type": "selector",
+      "type": "urltest",
       "outbounds": [
         "🚀 节点选择",
         "🎯 全球直连"
@@ -763,16 +763,15 @@
         "172.31.0.1/30",
         "fdfe:dcba:9876::1/126"
       ],
-      "mtu": 1500,
       "auto_route": false,
-      "auto_redirect": false,
-      "udp_timeout": "5m"
+      "auto_redirect": false
     }
   ],
   "experimental": {
     "cache_file": {
       "enabled": true,
-      "path": "/etc/momo/run/cache.db"
+      "path": "/etc/momo/run/cache.db",
+      "store_fakeip": false
     },
     "clash_api": {
       "external_controller": "0.0.0.0:9095",
