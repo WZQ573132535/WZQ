@@ -10,17 +10,12 @@
         "tag": "public",
         "type": "https",
         "server": "dns.alidns.com",
-        "server_port": 443,
-        "path": "/dns-query",
         "domain_resolver": "local"
       },
       {
         "tag": "foreign",
         "type": "https",
-        "server": "dns.google",
-        "server_port": 443,
-        "path": "/dns-query",
-        "domain_resolver": "local",
+        "server": "8.8.8.8",
         "detour": "🚀 节点选择"
       },
       {
@@ -48,19 +43,20 @@
         "server": "local"
       },
       {
-        "rule_set": "geosite-cn",
-        "server": "local"
-      },
-      {
         "query_type": [
           "A",
           "AAAA"
         ],
         "server": "fakeip",
         "rewrite_ttl": 1
+      },
+      {
+        "rule_set": "geosite-cn",
+        "server": "local"
       }
     ],
     "final": "foreign",
+    "client_subnet": "223.5.5.0/24",
     "strategy": "prefer_ipv4",
     "independent_cache": true,
     "reverse_mapping": true
@@ -264,7 +260,7 @@
         }
       ],
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 100
     },
     {
       "tag": "🇺🇸 美国自动",
@@ -287,7 +283,7 @@
         }
       ],
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 100
     },
     {
       "tag": "🇯🇵 日本自动",
@@ -310,7 +306,7 @@
         }
       ],
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 100
     },
     {
       "tag": "🇨🇳 台湾自动",
@@ -333,7 +329,7 @@
         }
       ],
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 100
     },
     {
       "tag": "🇨🇳 台湾手动",
@@ -345,7 +341,7 @@
         {
           "action": "include",
           "keywords": [
-            "tw|TW|台湾|台|Taiwan"
+            "tw|TW|台湾|Taiwan"
           ]
         },
         {
@@ -377,7 +373,7 @@
         }
       ],
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 100
     },
     {
       "tag": "🇰🇷 韩国自动",
@@ -400,7 +396,7 @@
         }
       ],
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 100
     },
     {
       "tag": "♻️ 自动选择",
@@ -417,11 +413,11 @@
         }
       ],
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 100
     },
     {
       "tag": "🍃 延迟辅助",
-      "type": "selector",
+      "type": "urltest",
       "outbounds": [
         "🚀 节点选择",
         "🎯 全球直连"
@@ -491,7 +487,10 @@
         "outbound": "GLOBAL"
       },
       {
-        "action": "resolve"
+        "domain_suffix": [
+          "gameloft.com"
+        ],
+        "outbound": "🇯🇵 日本自动"
       },
       {
         "rule_set": "geosite-openai",
@@ -546,12 +545,12 @@
         "outbound": "🍎 Apple"
       },
       {
-        "rule_set": "geosite-!cn",
-        "outbound": "🚀 节点选择"
-      },
-      {
         "rule_set": "geosite-cn",
         "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": "geosite-!cn",
+        "outbound": "🚀 节点选择"
       },
       {
         "rule_set": "geoip-google",
@@ -575,13 +574,6 @@
       }
     ],
     "rule_set": [
-      {
-        "tag": "geosite-fakeipfilter",
-        "type": "remote",
-        "format": "source",
-        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/WZQ573132535/WZQ/refs/heads/main/fakeipfilter.json",
-        "download_detour": "🎯 全球直连"
-      },
       {
         "tag": "geosite-openai",
         "type": "remote",
@@ -725,7 +717,7 @@
     ],
     "final": "🐟 漏网之鱼",
     "default_domain_resolver": {
-      "server": "local"
+      "server": "public"
     }
   },
   "inbounds": [
@@ -767,10 +759,8 @@
         "172.31.0.1/30",
         "fdfe:dcba:9876::1/126"
       ],
-      "mtu": 1500,
       "auto_route": false,
-      "auto_redirect": false,
-      "udp_timeout": "5m"
+      "auto_redirect": false
     }
   ],
   "experimental": {
