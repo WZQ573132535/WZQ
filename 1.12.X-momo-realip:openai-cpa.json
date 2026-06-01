@@ -413,7 +413,7 @@
     },
     {
       "tag": "♻️ 自动选择",
-      "type": "urltest",
+      "type": "selector",
       "outbounds": [
         "{all}"
       ],
