@@ -430,7 +430,7 @@
     },
     {
       "tag": "🍃 延迟辅助",
-      "type": "urltest",
+      "type": "selector",
       "outbounds": [
         "🚀 节点选择",
         "🎯 全球直连"
