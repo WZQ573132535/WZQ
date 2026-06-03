@@ -36,7 +36,7 @@
     {"tag": "🎥 Netflix", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇺🇸 美国自动", "🇯🇵 日本自动", "🇨🇳 台湾自动", "🇸🇬 新加坡自动", "🇰🇷 韩国自动"]},
     {"tag": "🍎 Apple", "type": "selector", "outbounds": ["🎯 全球直连"]},
     {"tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇺🇸 美国自动", "🇯🇵 日本自动", "🇨🇳 台湾自动", "🇸🇬 新加坡自动", "🇰🇷 韩国自动"]},
-    {"tag": "🇭🇰 香港自动", "type": "fallback", "outbounds": []},
+    {"tag": "🇭🇰 香港自动", "type": "urltest", "outbounds": []},
     {"tag": "🇺🇸 美国自动", "type": "urltest", "outbounds": []},
     {"tag": "🇯🇵 日本自动", "type": "urltest", "outbounds": []},
     {"tag": "🇨🇳 台湾自动", "type": "urltest", "outbounds": []},
