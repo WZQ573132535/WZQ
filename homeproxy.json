@@ -3,7 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
-        "gameloft.com"
+        "m-team.cc",
+        "tp.m-team.cc",
+        "example3.com"
       ]
     }
   ]
