@@ -74,7 +74,7 @@
   {"rule_set": "geoip-apple", "outbound": "🍎 Apple"},
   {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"},
   {"rule_set": "geosite-cn", "outbound": "🎯 全球直连"},
-  {"network": "udp", "port": 443, "outbound": "REJECT"}
+  {"network": "udp", "port": 443, "outbound": "REJECT"},
   {"rule_set": "geosite-!cn", "outbound": "🚀 节点选择"}
 ],
   "rule_set": [
