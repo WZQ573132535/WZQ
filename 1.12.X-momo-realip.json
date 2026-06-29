@@ -341,27 +341,6 @@
       "interrupt_exist_connections": false
     },
     {
-      "tag": "🇯🇵 日本手动",
-      "type": "selector",
-      "outbounds": [
-        "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇯🇵|JP|jp|日本|日|Japan"
-          ]
-        },
-        {
-          "action": "exclude",
-          "keywords": [
-            "免费"
-          ]
-        }
-      ]
-    },
-    {
       "tag": "🇨🇳 台湾自动",
       "type": "urltest",
       "outbounds": [
@@ -503,7 +482,6 @@
         "🇺🇸 美国自动",
         "🇺🇸 美国手动",
         "🇯🇵 日本自动",
-        "🇯🇵 日本手动",
         "🇨🇳 台湾自动",
         "🇨🇳 台湾手动",
         "🇸🇬 新加坡自动",
