@@ -659,7 +659,7 @@
       {
         "network": "udp",
         "port": 443,
-        "outbound": "REJECT"
+        "action": "reject"
       },
       {
         "rule_set": "geosite-!cn",
