@@ -71,7 +71,7 @@
         "♻️ 自动选择",
         "🇭🇰 香港自动",
         "🇺🇸 美国自动",
-        "🇯🇵 日本自动",
+        "🇯🇵 日本手动",
         "🇨🇳 台湾自动",
         "🇸🇬 新加坡自动",
         "🇰🇷 韩国自动"
@@ -177,9 +177,9 @@
       "tag": "🎮 Nintendo",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 香港手动",
+        "🇭🇰 香港自动",
         "🇺🇸 美国自动",
-        "🇯🇵 日本自动",
+        "🇯🇵 日本手动",
         "🇨🇳 台湾自动",
         "🇸🇬 新加坡自动",
         "🇰🇷 韩国自动"
@@ -235,7 +235,7 @@
       "outbounds": [
         "🇭🇰 香港自动",
         "🇺🇸 美国自动",
-        "🇯🇵 日本自动",
+        "🇯🇵 日本手动",
         "🇨🇳 台湾自动",
         "🇸🇬 新加坡自动",
         "🇰🇷 韩国自动"
@@ -266,27 +266,6 @@
       "tolerance": 50,
       "idle_timeout": "30m",
       "interrupt_exist_connections": false
-    },
-    {
-      "tag": "🇭🇰 香港手动",
-      "type": "selector",
-      "outbounds": [
-        "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇭🇰|HK|hk|香港|港|HongKong"
-          ]
-        },
-        {
-          "action": "exclude",
-          "keywords": [
-            "免费"
-          ]
-        }
-      ]
     },
     {
       "tag": "🇺🇸 美国自动",
@@ -360,6 +339,27 @@
       "tolerance": 50,
       "idle_timeout": "30m",
       "interrupt_exist_connections": false
+    },
+    {
+      "tag": "🇯🇵 日本手动",
+      "type": "selector",
+      "outbounds": [
+        "{all}"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇯🇵|JP|jp|日本|日|Japan"
+          ]
+        },
+        {
+          "action": "exclude",
+          "keywords": [
+            "免费"
+          ]
+        }
+      ]
     },
     {
       "tag": "🇨🇳 台湾自动",
@@ -500,10 +500,10 @@
         "🍎 Apple",
         "🐟 漏网之鱼",
         "🇭🇰 香港自动",
-        "🇭🇰 香港手动",
         "🇺🇸 美国自动",
         "🇺🇸 美国手动",
         "🇯🇵 日本自动",
+        "🇯🇵 日本手动",
         "🇨🇳 台湾自动",
         "🇨🇳 台湾手动",
         "🇸🇬 新加坡自动",
