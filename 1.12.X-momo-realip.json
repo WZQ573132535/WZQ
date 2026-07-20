@@ -43,6 +43,10 @@
         "action": "reject"
       },
       {
+        "rule_set": "geosite-nintendo",
+        "server": "foreign"
+      },
+      {
         "domain_suffix": [
           "services.googleapis.cn",
           "googleapis.cn",
