@@ -179,6 +179,18 @@
       "outbounds": [
         "🇭🇰 香港自动",
         "🇺🇸 美国自动",
+        "🇯🇵 日本自动",
+        "🇨🇳 台湾自动",
+        "🇸🇬 新加坡自动",
+        "🇰🇷 韩国自动"
+      ]
+    },
+    {
+      "tag": "🎮 Nintendo联机",
+      "type": "selector",
+      "outbounds": [
+        "🇭🇰 香港自动",
+        "🇺🇸 美国自动",
         "🇯🇵 日本手动",
         "🇨🇳 台湾自动",
         "🇸🇬 新加坡自动",
@@ -547,6 +559,12 @@
       {
         "protocol": "bittorrent",
         "outbound": "🎯 全球直连"
+      },
+      {
+        "source_ip_cidr": [
+          "192.168.5.66/32"
+        ],
+        "outbound": "🎮 Nintendo联机"
       },
       {
         "domain_suffix": [
