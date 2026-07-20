@@ -549,6 +549,12 @@
         "outbound": "🎯 全球直连"
       },
       {
+        "source_ip_cidr": [
+          "192.168.5.66/32"
+        ],
+        "outbound": "🎮 Nintendo"
+      },
+      {
         "domain_suffix": [
           "gameloft.com"
         ],
