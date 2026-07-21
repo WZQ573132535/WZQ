@@ -549,13 +549,6 @@
         "outbound": "🎯 全球直连"
       },
       {
-        "source_ip_cidr": [
-          "192.168.5.77/32",
-          "192.168.5.66/32"
-        ],
-        "outbound": "🇯🇵 日本手动"
-      },
-      {
         "domain_suffix": [
           "gameloft.com"
         ],
@@ -572,6 +565,10 @@
       {
         "rule_set": "geosite-x",
         "outbound": "❎ X"
+      },
+      {
+        "rule_set": "geosite-netflix",
+        "outbound": "🎥 Netflix"
       },
       {
         "rule_set": "geosite-youtube",
@@ -614,10 +611,6 @@
         "outbound": "🎮 Nintendo"
       },
       {
-        "rule_set": "geosite-netflix",
-        "outbound": "🎥 Netflix"
-      },
-      {
         "rule_set": "geoip-netflix",
         "outbound": "🎥 Netflix"
       },
@@ -636,6 +629,11 @@
       {
         "rule_set": "geosite-cn",
         "outbound": "🎯 全球直连"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "REJECT"
       },
       {
         "rule_set": "geosite-!cn",
