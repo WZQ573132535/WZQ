@@ -550,9 +550,10 @@
       },
       {
         "source_ip_cidr": [
-          "192.168.5.77/32"
+          "192.168.5.77/32",
+          "192.168.5.88/32"
         ],
-        "outbound": "🎮 Nintendo"
+        "outbound": "🇯🇵 日本手动"
       },
       {
         "domain_suffix": [
