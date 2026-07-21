@@ -556,12 +556,6 @@
         "outbound": "🇯🇵 日本手动"
       },
       {
-        "domain_suffix": [
-          "gameloft.com"
-        ],
-        "outbound": "🇯🇵 日本自动"
-      },
-      {
         "rule_set": "geosite-openai",
         "outbound": "💬 OpenAi"
       },
