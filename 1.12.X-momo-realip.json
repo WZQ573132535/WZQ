@@ -177,22 +177,12 @@
       "tag": "🎮 Nintendo",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 香港自动",
+        "🇭🇰 香港手动",
         "🇺🇸 美国自动",
         "🇯🇵 日本自动",
         "🇨🇳 台湾自动",
         "🇸🇬 新加坡自动",
         "🇰🇷 韩国自动"
-      ]
-    },
-    {
-      "tag": "🎮 Nintendo联机",
-      "type": "selector",
-      "outbounds": [
-        "🇭🇰 香港手动",
-        "🇯🇵 日本手动",
-        "🇭🇰 香港自动",
-        "🇯🇵 日本自动"
       ]
     },
     {
@@ -585,7 +575,7 @@
         "source_ip_cidr": [
           "192.168.5.66/32"
         ],
-        "outbound": "🎮 Nintendo联机"
+        "outbound": "🎮 Nintendo"
       },
       {
         "rule_set": "geosite-openai",
