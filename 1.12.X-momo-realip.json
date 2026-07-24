@@ -177,12 +177,22 @@
       "tag": "🎮 Nintendo",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 香港手动",
+        "🇭🇰 香港自动",
         "🇺🇸 美国自动",
         "🇯🇵 日本自动",
         "🇨🇳 台湾自动",
         "🇸🇬 新加坡自动",
         "🇰🇷 韩国自动"
+      ]
+    },
+    {
+      "tag": "🎮 Nintendo联机",
+      "type": "selector",
+      "outbounds": [
+        "🇭🇰 香港手动",
+        "🇯🇵 日本手动",
+        "🇭🇰 香港自动",
+        "🇯🇵 日本自动"
       ]
     },
     {
@@ -515,6 +525,7 @@
         "🌈 Instagram",
         "📲 Telegram",
         "🎮 Nintendo",
+        "🎮 Nintendo联机",
         "👨🏿‍💻 GitHub",
         "👾 Docker",
         "🎥 Netflix",
@@ -572,7 +583,8 @@
       },
       {
         "source_ip_cidr": [
-          "192.168.5.66/32"
+          "192.168.5.66/32",
+          "192.168.5.77/32"
         ],
         "outbound": "🎮 Nintendo"
       },
