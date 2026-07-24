@@ -586,7 +586,7 @@
           "192.168.5.66/32",
           "192.168.5.77/32"
         ],
-        "outbound": "🎮 Nintendo"
+        "outbound": "🎮 Nintendo联机"
       },
       {
         "rule_set": "geosite-openai",
