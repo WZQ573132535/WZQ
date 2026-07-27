@@ -179,6 +179,7 @@
       "outbounds": [
         "🇭🇰 香港手动",
         "🇺🇸 美国自动",
+        "🇯🇵 日本手动",
         "🇯🇵 日本自动",
         "🇨🇳 台湾自动",
         "🇸🇬 新加坡自动",
@@ -304,7 +305,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "免费"
+            "免费|CF"
           ]
         }
       ],
@@ -351,7 +352,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "免费"
+            "免费|CF"
           ]
         }
       ],
@@ -398,7 +399,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "免费"
+            "免费|CF"
           ]
         }
       ],
@@ -424,7 +425,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "免费"
+            "免费|CF"
           ]
         }
       ]
@@ -445,7 +446,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "免费"
+            "免费|CF"
           ]
         }
       ],
@@ -471,7 +472,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "免费"
+            "免费|CF"
           ]
         }
       ],
@@ -491,7 +492,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "官网|到期时间|剩余|流量|套餐|免费|订阅|全球直连|GB|Expire Date|Traffic|ExpireDate"
+            "官网|到期时间|剩余|流量|套餐|免费|订阅|全球直连|GB|Expire Date|Traffic|ExpireDate|CF"
           ]
         }
       ],
