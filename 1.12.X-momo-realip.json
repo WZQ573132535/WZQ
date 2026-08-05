@@ -150,7 +150,7 @@
       ]
     },
     {
-      "tag": "🌈 Instagram",
+      "tag": "🌈 Meta",
       "type": "selector",
       "outbounds": [
         "🇭🇰 香港自动",
@@ -491,7 +491,7 @@
         "❎ X",
         "✨ Gemini",
         "🎵 TikTok",
-        "🌈 Instagram",
+        "🌈 Meta",
         "📲 Telegram",
         "🎮 Nintendo",
         "👨🏿‍💻 GitHub",
@@ -593,8 +593,8 @@
         "outbound": "🎵 TikTok"
       },
       {
-        "rule_set": "geosite-instagram",
-        "outbound": "🌈 Instagram"
+        "rule_set": "geosite-meta",
+        "outbound": "🌈 Meta"
       },
       {
         "rule_set": "geosite-nintendo",
@@ -699,10 +699,10 @@
         "download_detour": "🎯 全球直连"
       },
       {
-        "tag": "geosite-instagram",
+        "tag": "geosite-meta",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/instagram.srs",
+        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/meta.srs",
         "download_detour": "🎯 全球直连"
       },
       {
