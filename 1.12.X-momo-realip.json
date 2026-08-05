@@ -150,7 +150,7 @@
       ]
     },
     {
-      "tag": "🌈 Meta",
+      "tag": "Ⓜ️ Meta",
       "type": "selector",
       "outbounds": [
         "🇭🇰 香港自动",
@@ -491,7 +491,7 @@
         "❎ X",
         "✨ Gemini",
         "🎵 TikTok",
-        "🌈 Meta",
+        "Ⓜ️ Meta",
         "📲 Telegram",
         "🎮 Nintendo",
         "👨🏿‍💻 GitHub",
@@ -594,7 +594,7 @@
       },
       {
         "rule_set": "geosite-meta",
-        "outbound": "🌈 Meta"
+        "outbound": "Ⓜ️ Meta"
       },
       {
         "rule_set": "geosite-nintendo",
