@@ -258,7 +258,7 @@
       "interval": "5m",
       "tolerance": 50,
       "idle_timeout": "30m",
-      "interrupt_exist_connections": false
+      "interrupt_exist_connections": true
     },
     {
       "tag": "🇺🇸 美国自动",
@@ -284,7 +284,7 @@
       "interval": "5m",
       "tolerance": 50,
       "idle_timeout": "30m",
-      "interrupt_exist_connections": false
+      "interrupt_exist_connections": true
     },
     {
       "tag": "🇺🇸 美国手动",
@@ -331,7 +331,7 @@
       "interval": "5m",
       "tolerance": 50,
       "idle_timeout": "30m",
-      "interrupt_exist_connections": false
+      "interrupt_exist_connections": true
     },
     {
       "tag": "🇨🇳 台湾自动",
@@ -357,7 +357,7 @@
       "interval": "5m",
       "tolerance": 50,
       "idle_timeout": "30m",
-      "interrupt_exist_connections": false
+      "interrupt_exist_connections": true
     },
     {
       "tag": "🇨🇳 台湾手动",
@@ -404,7 +404,7 @@
       "interval": "5m",
       "tolerance": 50,
       "idle_timeout": "30m",
-      "interrupt_exist_connections": false
+      "interrupt_exist_connections": true
     },
     {
       "tag": "🇰🇷 韩国自动",
@@ -430,7 +430,7 @@
       "interval": "5m",
       "tolerance": 50,
       "idle_timeout": "30m",
-      "interrupt_exist_connections": false
+      "interrupt_exist_connections": true
     },
     {
       "tag": "👇 手动选择",
