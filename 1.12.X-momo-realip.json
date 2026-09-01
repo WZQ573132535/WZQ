@@ -255,9 +255,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "30s",
+      "interval": "10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
@@ -281,9 +281,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "30s",
+      "interval": 10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
@@ -328,9 +328,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "30s",
+      "interval": "10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
@@ -354,9 +354,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "30s",
+      "interval": "10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
@@ -401,9 +401,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "30s",
+      "interval": "10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
@@ -427,9 +427,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "30s",
+      "interval": "10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
