@@ -255,10 +255,10 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
+      "interval": "1m",
       "tolerance": 50,
-      "idle_timeout": "10m",
-      "interrupt_exist_connections": false
+      "idle_timeout": "5m",
+      "interrupt_exist_connections": true
     },
     {
       "tag": "🇺🇸 美国自动",
@@ -281,10 +281,10 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
+      "interval": "1m",
       "tolerance": 50,
-      "idle_timeout": "10m",
-      "interrupt_exist_connections": false
+      "idle_timeout": "5m",
+      "interrupt_exist_connections": true
     },
     {
       "tag": "🇺🇸 美国手动",
@@ -328,10 +328,10 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
+      "interval": "1m",
       "tolerance": 50,
-      "idle_timeout": "10m",
-      "interrupt_exist_connections": false
+      "idle_timeout": "5m",
+      "interrupt_exist_connections": true
     },
     {
       "tag": "🇨🇳 台湾自动",
@@ -354,10 +354,10 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
+      "interval": "1m",
       "tolerance": 50,
-      "idle_timeout": "10m",
-      "interrupt_exist_connections": false
+      "idle_timeout": "5m",
+      "interrupt_exist_connections": true
     },
     {
       "tag": "🇨🇳 台湾手动",
@@ -401,10 +401,10 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
+      "interval": "1m",
       "tolerance": 50,
-      "idle_timeout": "10m",
-      "interrupt_exist_connections": false
+      "idle_timeout": "5m",
+      "interrupt_exist_connections": true
     },
     {
       "tag": "🇰🇷 韩国自动",
@@ -427,10 +427,10 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
+      "interval": "1m",
       "tolerance": 50,
-      "idle_timeout": "10m",
-      "interrupt_exist_connections": false
+      "idle_timeout": "5m",
+      "interrupt_exist_connections": true
     },
     {
       "tag": "👇 手动选择",
