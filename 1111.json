@@ -53,6 +53,11 @@
     ],
     "final": "foreign",
     "strategy": "prefer_ipv4",
+    "optimistic": {
+      "enabled": true,
+      "timeout": "3d"
+    },
+    "timeout": "10s",
     "reverse_mapping": true
   },
 
@@ -716,7 +721,7 @@
         "tag": "geoip-apple",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo-lite/geoip/apple.srs"
+        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geo-lite/geoip/apple.srs"
       },
       {
         "tag": "geoip-telegram",
@@ -739,9 +744,7 @@
     ],
 
     "final": "🐟 漏网之鱼",
-
     "default_http_client": "rule-set-direct",
-
     "default_domain_resolver": {
       "server": "public"
     }
