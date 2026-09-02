@@ -18,22 +18,12 @@
         "server": "dns.google",
         "path": "/dns-query",
         "detour": "🚀 节点选择"
-      },
-      {
-        "tag": "fakeip",
-        "type": "fakeip",
-        "inet4_range": "198.18.0.0/15",
-        "inet6_range": "fc00::/18"
       }
     ],
     "rules": [
       {
         "clash_mode": "direct",
         "server": "local"
-      },
-      {
-        "clash_mode": "global",
-        "server": "fakeip"
       },
       {
         "domain_suffix": [
@@ -53,12 +43,12 @@
     ],
     "final": "foreign",
     "strategy": "prefer_ipv4",
+    "reverse_mapping": true,
     "optimistic": {
       "enabled": true,
       "timeout": "3d"
     },
-    "timeout": "10s",
-    "reverse_mapping": true
+    "timeout": "10s"
   },
 
   "http_clients": [
@@ -785,6 +775,8 @@
     {
       "tag": "tun-in",
       "type": "tun",
+      "listen": "::",
+      "listen_port": 0,
       "interface_name": "momo",
       "address": [
         "172.31.0.1/30",
