@@ -764,7 +764,7 @@
     },
     "clash_api": {
       "external_controller": "0.0.0.0:9091",
-      "external_ui": "/etc/sing-box/run/ui",
+      "external_ui": "/etc/sing-box/ui",
       "external_ui_download_url": "https://github.828001.xyz/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "🎯 全球直连",
       "secret": "",
