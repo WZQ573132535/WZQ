@@ -614,121 +614,121 @@
         "tag": "geosite-openai",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/openai.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/openai.srs"
       },
       {
         "tag": "geosite-x",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/x.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/x.srs"
       },
       {
         "tag": "geosite-gemini",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/google-gemini.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/google-gemini.srs"
       },
       {
         "tag": "geosite-youtube",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/youtube.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/youtube.srs"
       },
       {
         "tag": "geosite-google",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/google.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/google.srs"
       },
       {
         "tag": "geosite-github",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/github.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/github.srs"
       },
       {
         "tag": "geosite-docker",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/docker.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/docker.srs"
       },
       {
         "tag": "geosite-telegram",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/telegram.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/telegram.srs"
       },
       {
         "tag": "geosite-tiktok",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/tiktok.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/tiktok.srs"
       },
       {
         "tag": "geosite-meta",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/meta.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/meta.srs"
       },
       {
         "tag": "geosite-nintendo",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/nintendo.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/nintendo.srs"
       },
       {
         "tag": "geosite-netflix",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/netflix.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/netflix.srs"
       },
       {
         "tag": "geosite-apple",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/apple.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/apple.srs"
       },
       {
         "tag": "geosite-!cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/geolocation-!cn.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/geolocation-!cn.srs"
       },
       {
         "tag": "geosite-cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/cn.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/cn.srs"
       },
       {
         "tag": "geoip-google",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/google.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/google.srs"
       },
       {
         "tag": "geoip-apple",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geo-lite/geoip/apple.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geo-lite/geoip/apple.srs"
       },
       {
         "tag": "geoip-telegram",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/telegram.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/telegram.srs"
       },
       {
         "tag": "geoip-netflix",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/netflix.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/netflix.srs"
       },
       {
         "tag": "geoip-cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/cn.srs"
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/cn.srs"
       }
     ],
 
