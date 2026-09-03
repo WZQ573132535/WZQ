@@ -742,59 +742,30 @@
 
   "inbounds": [
     {
-      "tag": "dns-in",
-      "type": "direct",
-      "listen": "::",
-      "listen_port": 1053
-    },
-    {
-      "tag": "http-in",
-      "type": "http",
-      "listen": "::",
-      "listen_port": 8080
-    },
-    {
-      "tag": "socks-in",
-      "type": "socks",
-      "listen": "::",
-      "listen_port": 7891
-    },
-    {
-      "tag": "redirect-in",
-      "type": "redirect",
-      "listen": "::",
-      "listen_port": 7890
-    },
-    {
-      "tag": "tproxy-in",
-      "type": "tproxy",
-      "listen": "::",
-      "listen_port": 1080,
-      "udp_timeout": "5m"
-    },
-    {
-      "tag": "tun-in",
       "type": "tun",
-      "interface_name": "momo",
+      "tag": "tun-in",
+      "interface_name": "singtun0",
       "address": [
-        "172.31.0.1/30",
+        "172.19.0.1/30",
         "fdfe:dcba:9876::1/126"
       ],
-      "auto_route": false,
-      "auto_redirect": false,
-      "udp_timeout": "5m"
+      "mtu": 1500,
+      "auto_route": true,
+      "strict_route": true,
+      "dns_mode": "hijack",
+      "stack": "mixed"
     }
   ],
 
   "experimental": {
     "cache_file": {
       "enabled": true,
-      "path": "/etc/momo/run/cache.db",
+      "path": "/etc/sing-box/cache.db",
       "store_fakeip": false
     },
     "clash_api": {
-      "external_controller": "0.0.0.0:9095",
-      "external_ui": "/etc/momo/run/ui",
+      "external_controller": "0.0.0.0:9091",
+      "external_ui": "/etc/sing-box/run/ui",
       "external_ui_download_url": "https://github.828001.xyz/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "🎯 全球直连",
       "secret": "",
