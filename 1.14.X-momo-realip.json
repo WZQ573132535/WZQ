@@ -334,7 +334,7 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m",
+      "interval": "30s",
       "tolerance": 50,
       "idle_timeout": "5m",
       "interrupt_exist_connections": false
