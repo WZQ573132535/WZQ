@@ -53,8 +53,7 @@
 
   "http_clients": [
     {
-      "tag": "rule-set-direct",
-      "detour": "🎯 全球直连"
+      "tag": "rule-set-direct"
     }
   ],
 
