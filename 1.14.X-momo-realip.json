@@ -247,13 +247,13 @@
         {
           "action": "include",
           "keywords": [
-            "🇭🇰|HK|hk|香港|港|HongKong|良心云"
+            "🇭🇰|HK|hk|香港|港|HongKong"
           ]
         },
         {
           "action": "exclude",
           "keywords": [
-            "免费"
+            "免费|Mitce|牛逼"
           ]
         }
       ],
