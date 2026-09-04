@@ -792,6 +792,16 @@
       "path": "/etc/momo/run/cache.db",
       "store_fakeip": false
     },
+     "api": {
+    "listen": "0.0.0.0:9096",
+    "secret": "123456",
+    "dashboard": {
+      "enabled": true,
+      "path": "/etc/momo/run/dashboard",
+      "download_url": "https://github.com/SagerNet/sing-box-dashboard/archive/refs/heads/gh-pages.zip",
+      "update_interval": "1d"
+    }
+  },
     "clash_api": {
       "external_controller": "0.0.0.0:9095",
       "external_ui": "/etc/momo/run/ui",
