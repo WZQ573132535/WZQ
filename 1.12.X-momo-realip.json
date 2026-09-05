@@ -17,12 +17,6 @@
         "type": "https",
         "server": "8.8.8.8",
         "detour": "🚀 节点选择"
-      },
-      {
-        "tag": "fakeip",
-        "type": "fakeip",
-        "inet4_range": "198.18.0.0/15",
-        "inet6_range": "fc00::/18"
       }
     ],
     "rules": [
@@ -39,24 +33,22 @@
         "action": "reject"
       },
       {
-        "rule_set": "geosite-fakeipfilter",
-        "server": "local"
-      },
-      {
-        "query_type": [
-          "A",
-          "AAAA"
+        "domain_suffix": [
+          "services.googleapis.cn",
+          "googleapis.cn",
+          "xn--ngstr-lra8j.com"
         ],
-        "server": "fakeip",
-        "rewrite_ttl": 1
+        "server": "foreign"
       },
       {
-        "rule_set": "geosite-cn",
+        "rule_set": [
+          "geosite-cn",
+          "geosite-apple"
+        ],
         "server": "local"
       }
     ],
     "final": "foreign",
-    "client_subnet": "223.5.5.0/24",
     "strategy": "prefer_ipv4",
     "independent_cache": true,
     "reverse_mapping": true
@@ -598,13 +590,6 @@
     ],
     "rule_set": [
       {
-        "tag": "geosite-fakeipfilter",
-        "type": "remote",
-        "format": "source",
-        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/WZQ573132535/WZQ/refs/heads/main/fakeipfilter.json",
-        "download_detour": "🎯 全球直连"
-      },
-      {
         "tag": "geosite-openai",
         "type": "remote",
         "format": "binary",
@@ -797,7 +782,7 @@
     "cache_file": {
       "enabled": true,
       "path": "/etc/momo/run/cache.db",
-      "store_fakeip": true
+      "store_fakeip": false
     },
     "clash_api": {
       "external_controller": "0.0.0.0:9095",
