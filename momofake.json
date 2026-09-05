@@ -561,6 +561,13 @@
     ],
     "rule_set": [
       {
+        "tag": "geosite-fakeipfilter",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/fakeipfilter.json",
+        "download_detour": "🎯 全球直连"
+      },
+      {
         "tag": "geosite-openai",
         "type": "remote",
         "format": "binary",
