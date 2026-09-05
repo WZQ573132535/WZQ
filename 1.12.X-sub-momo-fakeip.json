@@ -650,7 +650,7 @@
         "tag": "geosite-docker",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/docker.srs",
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/docker.srs",
         "download_detour": "🎯 全球直连"
       },
       {
