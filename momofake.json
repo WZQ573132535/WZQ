@@ -1,18 +1,59 @@
 {
   "dns": {
     "servers": [
-      {"tag": "local", "type": "udp", "server": "223.5.5.5"},
-      {"tag": "public", "type": "https", "server": "dns.alidns.com", "domain_resolver": "local"},
-      {"tag": "foreign", "type": "https", "server": "8.8.8.8", "detour": "🚀 节点选择"},
-      {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
+      {
+        "tag": "local",
+        "type": "udp",
+        "server": "223.5.5.5"
+      },
+      {
+        "tag": "public",
+        "type": "https",
+        "server": "dns.alidns.com",
+        "domain_resolver": "local"
+      },
+      {
+        "tag": "foreign",
+        "type": "https",
+        "server": "8.8.8.8",
+        "detour": "🚀 节点选择"
+      },
+      {
+        "tag": "fakeip",
+        "type": "fakeip",
+        "inet4_range": "198.18.0.0/15",
+        "inet6_range": "fc00::/18"
+      }
     ],
     "rules": [
-      {"clash_mode": "direct", "server": "local"},
-      {"clash_mode": "global", "server": "fakeip"},
-      {"query_type": "HTTPS", "action": "reject"},
-      {"rule_set": "geosite-fakeipfilter", "server": "local"},
-      {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1},
-      {"rule_set": "geosite-cn", "server": "local"}
+      {
+        "clash_mode": "direct",
+        "server": "local"
+      },
+      {
+        "clash_mode": "global",
+        "server": "fakeip"
+      },
+      {
+        "query_type": "HTTPS",
+        "action": "reject"
+      },
+      {
+        "rule_set": "geosite-fakeipfilter",
+        "server": "local"
+      },
+      {
+        "query_type": [
+          "A",
+          "AAAA"
+        ],
+        "server": "fakeip",
+        "rewrite_ttl": 1
+      },
+      {
+        "rule_set": "geosite-cn",
+        "server": "local"
+      }
     ],
     "final": "foreign",
     "client_subnet": "223.5.5.0/24",
@@ -219,9 +260,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m",
+      "interval": "10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
@@ -245,9 +286,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m",
+      "interval": "10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
@@ -292,9 +333,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m",
+      "interval": "10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
@@ -318,9 +359,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m",
+      "interval": "10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
@@ -365,9 +406,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m",
+      "interval": "10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
@@ -391,9 +432,9 @@
         }
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m",
+      "interval": "10m",
       "tolerance": 50,
-      "idle_timeout": "5m",
+      "idle_timeout": "30m",
       "interrupt_exist_connections": true
     },
     {
@@ -563,7 +604,7 @@
       {
         "tag": "geosite-fakeipfilter",
         "type": "remote",
-        "format": "binary",
+        "format": "source",
         "url": "https://github.828001.xyz/https://raw.githubusercontent.com/WZQ573132535/WZQ/refs/heads/main/fakeipfilter.json",
         "download_detour": "🎯 全球直连"
       },
@@ -613,7 +654,7 @@
         "tag": "geosite-docker",
         "type": "remote",
         "format": "binary",
-        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/docker.srs",
+        "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/docker.srs",
         "download_detour": "🎯 全球直连"
       },
       {
@@ -709,7 +750,9 @@
       }
     ],
     "final": "🐟 漏网之鱼",
-    "default_domain_resolver": {"server": "public"}
+    "default_domain_resolver": {
+      "server": "public"
+    }
   },
   "inbounds": [
     {
