@@ -158,6 +158,13 @@
       "path": "cache.db",
       "store_dns": true
     },
+    "clash_api": {
+      "external_controller": "0.0.0.0:9095",
+      "external_ui": "ui",
+      "secret": "passwd",
+      "default_mode": "Rule"
+    }
+  },
   "certificate": {
     "store": "chrome"
   },
