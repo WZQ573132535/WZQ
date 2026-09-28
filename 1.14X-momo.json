@@ -107,6 +107,7 @@
       {"tag": "geosite-netflix", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs"},
       {"tag": "geosite-apple@cn", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple@cn.srs"},
       {"tag": "geosite-apple", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.srs"},
+      {"tag": "geosite-geolocation-!cn", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs"},
      
       {"tag": "geoip-google", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs"},
       {"tag": "geoip-telegram", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs"},
