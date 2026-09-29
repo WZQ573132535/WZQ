@@ -39,7 +39,6 @@
     {"tag": "👨🏿‍💻 GitHub", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇺🇸 美国自动", "🇯🇵 日本自动", "🇨🇳 台湾自动", "🇸🇬 新加坡自动", "🇰🇷 韩国自动"]},
     {"tag": "👾 Docker", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇺🇸 美国自动", "🇯🇵 日本自动", "🇨🇳 台湾自动", "🇸🇬 新加坡自动", "🇰🇷 韩国自动"]},
     {"tag": "🎥 Netflix", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇺🇸 美国自动", "🇯🇵 日本自动", "🇨🇳 台湾自动", "🇸🇬 新加坡自动", "🇰🇷 韩国自动"]},
-    {"tag": "🍎 Apple", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇺🇸 美国自动", "🇯🇵 日本自动", "🇨🇳 台湾自动", "🇸🇬 新加坡自动", "🇰🇷 韩国自动"]},
     {"tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇺🇸 美国自动", "🇯🇵 日本自动", "🇨🇳 台湾自动", "🇸🇬 新加坡自动", "🇰🇷 韩国自动"]},
     
     {"tag": "🇭🇰 香港自动", "type": "urltest", "outbounds": ["{all}"],"filter":[{"action":"include","keywords":["良心云 - 香港"]}], "url": "https://clients1.google.com/generate_204", "interval": "5m", "tolerance": 50},
@@ -81,14 +80,14 @@
       {"rule_set": "geosite-nintendo", "outbound": "🎮 Nintendo"},
       {"rule_set": "geosite-netflix", "outbound": "🎥 Netflix"},
       {"rule_set": "geosite-apple@cn", "outbound": "🎯 全球直连"},
-      {"rule_set": "geosite-apple", "outbound": "🍎 Apple"},
+      {"rule_set": "geosite-apple", "outbound": "🇭🇰 香港自动"},
       {"rule_set": "geosite-cn", "outbound": "🎯 全球直连"},
       {"rule_set": "geosite-geolocation-!cn", "outbound": "🚀 节点选择"},
       {"action": "resolve"},
       {"rule_set": "geoip-google", "outbound": "🔍 Google"},
       {"rule_set": "geoip-telegram", "outbound": "📲 Telegram"},
       {"rule_set": "geoip-netflix", "outbound": "🎥 Netflix"},
-      {"rule_set": "geoip-apple", "outbound": "🍎 Apple"},
+      {"rule_set": "geoip-apple", "outbound": "🇭🇰 香港自动"},
       {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"}
     ],
     "rule_set": [
