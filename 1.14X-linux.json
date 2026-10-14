@@ -114,7 +114,7 @@
       "dashboard": {
         "enabled": true,
         "path": "/etc/sing-box/dashboard",
-        "download_url": "https://github.828001.xyz/https://github.com/SagerNet/sing-box-dashboard/archive/refs/heads/gh-pages.zip"
+        "download_url": "https://gh-proxy.com/https://github.com/SagerNet/sing-box-dashboard/archive/refs/heads/gh-pages.zip"
       }
     }
   ],
@@ -127,7 +127,7 @@
     "clash_api": {
       "external_controller": "0.0.0.0:9095",
       "external_ui": "/etc/sing-box/ui",
-      "external_ui_download_url": "https://github.828001.xyz/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
+      "external_ui_download_url": "https://gh-proxy.com/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
       "secret": "passwd",
       "default_mode": "Rule"
     }
@@ -145,4 +145,3 @@
     "timestamp": true
   }
 }
-
