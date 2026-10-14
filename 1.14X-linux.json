@@ -56,7 +56,8 @@
   "http_clients": [
     {"tag": "直连下载", "detour": "🎯 全球直连"}
   ],
-  "rule_set": [
+  "route": {
+    "rules": [
       {"tag": ["fakeipfilter-cn", "fakeipfilter-!cn"], "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/rules/{tag}.json"},
       {"tag": "geosite-private", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/private.srs"},
       {"tag": "geosite-openai", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/openai.srs"},
@@ -114,7 +115,7 @@
       "dashboard": {
         "enabled": true,
         "path": "/etc/sing-box/dashboard",
-        "download_url": "https://gh-proxy.com/https://github.com/SagerNet/sing-box-dashboard/archive/refs/heads/gh-pages.zip"
+        "download_url": "https://github.828001.xyz/https://github.com/SagerNet/sing-box-dashboard/archive/refs/heads/gh-pages.zip"
       }
     }
   ],
@@ -127,7 +128,7 @@
     "clash_api": {
       "external_controller": "0.0.0.0:9095",
       "external_ui": "/etc/sing-box/ui",
-      "external_ui_download_url": "https://gh-proxy.com/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
+      "external_ui_download_url": "https://github.828001.xyz/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
       "secret": "passwd",
       "default_mode": "Rule"
     }
