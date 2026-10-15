@@ -176,7 +176,7 @@
   },
   "log": {
     "disabled": false,
-    "level": "info",
+    "level": "info"
   }
 }
 
