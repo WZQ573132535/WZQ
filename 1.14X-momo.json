@@ -112,9 +112,9 @@
      
       {"tag": "geoip-google", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs"},
       {"tag": "geoip-telegram", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs"},
-      {"tag": "geoip-netflix", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs"},
+      {"tag": "geoip-netflix", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs"},
       {"tag": "geoip-apple", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/apple.srs"},
-      {"tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs"}
+      {"tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs"}
     ],
     "final": "🐟 漏网之鱼",
     "default_http_client": "直连下载",
