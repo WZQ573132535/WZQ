@@ -36,6 +36,11 @@ subscription {
 # 2. 代理组
 # ==========================================
 
+# node {
+#     my_vps: 'hysteria2://密码@vps.example.com:443/?sni=vps.example.com'
+# }
+
+# policy 可选 select（面板手动选，默认）/ min_moving_avg（延迟最低）/ fallback（按顺序取第一个存活）/ loadbalance（轮询）/ score（按实际连接质量评分）；final：所选节点不可用时改走的组
 group {
 
     # 默认美国代理
