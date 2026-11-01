@@ -45,7 +45,7 @@ group {
 
     # 默认美国代理
     Proxy {
-        filter: name(regex: '良心云 - 美国') && !name(regex: '排除')
+        filter: name(regex: '良心云 - 美国')
         policy: score
         final: block
         interrupt_connections: true
@@ -53,7 +53,7 @@ group {
 
     # OpenAI
     OpenAi {
-        filter: name(regex: '老狗 - 美国') && !name(regex: '排除')
+        filter: name(regex: '老狗 - 美国')
         policy: select
         final: block
         interrupt_connections: true
@@ -61,7 +61,7 @@ group {
 
     # Gemini
     Gemini {
-        filter: name(regex: '老狗 - 美国') && !name(regex: '排除')
+        filter: name(regex: '老狗 - 美国')
         policy: select
         final: block
         interrupt_connections: true
@@ -69,7 +69,7 @@ group {
 
     # X
     X {
-        filter: name(regex: '良心云 - 美国') && !name(regex: '排除')
+        filter: name(regex: '良心云 - 美国')
         policy: score
         final: block
         interrupt_connections: true
@@ -77,7 +77,7 @@ group {
 
     # YouTube
     YouTube {
-        filter: name(regex: '良心云 - 日本') && !name(regex: '排除')
+        filter: name(regex: '良心云 - 日本')
         policy: score
         final: block
         interrupt_connections: true
@@ -85,7 +85,7 @@ group {
 
     # Google
     Google {
-        filter: name(regex: '良心云 - 香港') && !name(regex: '排除')
+        filter: name(regex: '良心云 - 香港')
         policy: score
         final: block
         interrupt_connections: true
@@ -93,7 +93,7 @@ group {
 
     # Telegram
     Telegram {
-        filter: name(regex: 'Mitce - 香港|牛逼 - 香港|Mitce - 日本|牛逼 - 日本') && !name(regex: '排除')
+        filter: name(regex: 'Mitce - 香港|牛逼 - 香港|Mitce - 日本|牛逼 - 日本')
         policy: score
         final: block
         interrupt_connections: true
@@ -101,7 +101,7 @@ group {
 
     # Meta
     Meta {
-        filter: name(regex: '良心云 - 香港') && !name(regex: '排除')
+        filter: name(regex: '良心云 - 香港')
         policy: score
         final: block
         interrupt_connections: true
@@ -109,7 +109,7 @@ group {
 
     # TikTok
     TikTok {
-        filter: name(regex: '良心云 - 日本') && !name(regex: '排除')
+        filter: name(regex: '良心云 - 日本')
         policy: score
         final: block
         interrupt_connections: true
@@ -117,7 +117,7 @@ group {
 
     # Netflix
     Netflix {
-        filter: name(regex: '良心云 - 新加坡|Mitce - 新加坡|牛逼 - 新加坡') && !name(regex: '排除')
+        filter: name(regex: '良心云 - 新加坡|Mitce - 新加坡|牛逼 - 新加坡')
         policy: score
         final: block
         interrupt_connections: true
@@ -125,7 +125,7 @@ group {
 
     # Github
     Github {
-        filter: name(regex: '良心云 - 香港') && !name(regex: '排除')
+        filter: name(regex: '良心云 - 香港')
         policy: score
         final: block
         interrupt_connections: true
@@ -133,7 +133,7 @@ group {
 
     # Docker
     Docker {
-        filter: name(regex: '良心云 - 美国') && !name(regex: '排除')
+        filter: name(regex: '良心云 - 美国')
         policy: score
         final: block
         interrupt_connections: true
@@ -141,7 +141,7 @@ group {
 
     # Nintendo
     Nintendo {
-        filter: name(regex: '良心云 - 日本') && !name(regex: '排除')
+        filter: name(regex: '良心云 - 日本')
         policy: score
         final: block
         interrupt_connections: true
@@ -149,7 +149,7 @@ group {
 
     # Apple
     Apple {
-        filter: name(regex: '良心云 - 香港') && !name(regex: '排除')
+        filter: name(regex: '良心云 - 香港')
         policy: score
         final: block
         interrupt_connections: true
@@ -157,7 +157,7 @@ group {
 
     # 最终代理组
     Final {
-        filter: !name(regex: '良心云 - 香港')
+        filter: name(regex: '良心云 - 香港')
         policy: score
         final: block
     }
@@ -170,10 +170,10 @@ group {
 dns {
     upstream {
         # 国外 DNS：Google DoH，通过 Proxy 代理
-        remote: 'https://8.8.8.8/dns-query'
+        remote: 'https://dns.google/dns-query' -> Proxy
 
         # 国内 DNS：阿里 DoH，直连
-        local: 'https://223.5.5.5/dns-query'
+        local: 'https://dns.alidns.com/dns-query' -> direct
     }
 
     routing {
