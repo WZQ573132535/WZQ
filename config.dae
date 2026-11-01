@@ -311,9 +311,9 @@ assets {
     }
 
     geodata {
-        geosite: 'https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geosite.dat'
+        geosite: 'https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geosite.dat'
 
-        geoip: 'https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.dat'
+        geoip: 'https://github.828001.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.dat'
 
         route: direct
     }
