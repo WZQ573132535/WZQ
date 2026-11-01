@@ -170,10 +170,10 @@ group {
 dns {
     upstream {
         # 国外 DNS：Google DoH，通过 Proxy 代理
-        remote: 'https://dns.google/dns-query' -> Proxy
+        remote: 'https://8.8.8.8/dns-query'
 
         # 国内 DNS：阿里 DoH，直连
-        local: 'https://dns.alidns.com/dns-query' -> direct
+        local: 'https://223.5.5.5/dns-query'
     }
 
     routing {
