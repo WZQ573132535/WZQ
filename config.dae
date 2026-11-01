@@ -94,7 +94,7 @@ group {
     # Telegram
     Telegram {
         filter: name(regex: 'Mitce - 香港|牛逼 - 香港|Mitce - 日本|牛逼 - 日本') && !name(regex: '排除')
-        policy: select
+        policy: score
         final: block
         interrupt_connections: true
     }
