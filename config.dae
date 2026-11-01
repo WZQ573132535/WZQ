@@ -181,9 +181,6 @@ dns {
             # 屏蔽 HTTPS/SVCB 记录
             qtype(https, svcb) -> reject
 
-            # 屏蔽 IPv6 DNS 查询
-            qtype(aaaa) -> reject
-
             # Google 特殊域名
             qname(suffix: googleapis.cn, suffix: xn--ngstr-lra8j.com) -> remote
 
@@ -225,7 +222,7 @@ routing {
     domain(suffix: googleapis.cn, suffix: xn--ngstr-lra8j.com) -> Google
 
     # OpenAI
-    domain(suffix: withgoogle.com, suffix: notebooklm.google, geosite: openai) -> OpenAi
+    domain(geosite: openai) -> OpenAi
 
     # Gemini
     domain(geosite: google-gemini) -> Gemini
