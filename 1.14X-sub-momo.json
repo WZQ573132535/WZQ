@@ -145,7 +145,7 @@
     {
       "type": "api",
       "listen": "0.0.0.0",
-      "listen_port": 9099,
+      "listen_port": 9090,
       "secret": "passwd",
       "dashboard": {
         "enabled": true,
@@ -161,7 +161,7 @@
       "store_dns": true
     },
     "clash_api": {
-      "external_controller": "0.0.0.0:9090",
+      "external_controller": "0.0.0.0:9095",
       "external_ui": "ui",
       "external_ui_download_url": "https://github.828001.xyz/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
       "secret": "passwd",
