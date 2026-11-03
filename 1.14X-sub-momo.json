@@ -157,7 +157,7 @@
   "experimental": {
     "cache_file": {
       "enabled": true,
-      "path": "cache.db",
+      "path": "/etc/momo/run/cache.db",
       "store_dns": true
     },
     "clash_api": {
